@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ-Work-Queues.Client", "RabbitMQ-Work-Queues.Client\RabbitMQ-Work-Queues.Client.csproj", "{3844B719-5B37-4D95-AA82-32FCCA65E74E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ-Work-Queues.Server", "RabbitMQ-Work-Queues.Server\RabbitMQ-Work-Queues.Server.csproj", "{521FFA4D-DF58-4180-B7C0-CF8E1DE7A763}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ-Work-Queues.Data.SqlServer.EF", "RabbitMQ-Work-Queues.Data.SqlServer.EF\RabbitMQ-Work-Queues.Data.SqlServer.EF.csproj", "{D5782455-40C0-40AB-9EAA-3BBE3F267426}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. QueueClient", "1. QueueClient", "{BF6E3F44-5EFF-4CE4-8FC6-E72DBBF0CEF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. QueueServer", "2. QueueServer", "{CCF7A544-C370-46A7-8D2C-E0738F4D28D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Infra-Structure", "4. Infra-Structure", "{DCE60F00-574C-4C13-9F1A-EB138DD4FC02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Domain", "3. Domain", "{1FEC0AEE-80C5-42AD-BC6F-9E078418CCAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ-Work-Queues.Domain", "RabbitMQ-Work-Queues.Domain\RabbitMQ-Work-Queues.Domain.csproj", "{CAFF13E5-AE34-40D9-9D93-3D5B56599940}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3844B719-5B37-4D95-AA82-32FCCA65E74E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3844B719-5B37-4D95-AA82-32FCCA65E74E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3844B719-5B37-4D95-AA82-32FCCA65E74E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3844B719-5B37-4D95-AA82-32FCCA65E74E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{521FFA4D-DF58-4180-B7C0-CF8E1DE7A763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521FFA4D-DF58-4180-B7C0-CF8E1DE7A763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521FFA4D-DF58-4180-B7C0-CF8E1DE7A763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521FFA4D-DF58-4180-B7C0-CF8E1DE7A763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5782455-40C0-40AB-9EAA-3BBE3F267426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5782455-40C0-40AB-9EAA-3BBE3F267426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5782455-40C0-40AB-9EAA-3BBE3F267426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5782455-40C0-40AB-9EAA-3BBE3F267426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAFF13E5-AE34-40D9-9D93-3D5B56599940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAFF13E5-AE34-40D9-9D93-3D5B56599940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAFF13E5-AE34-40D9-9D93-3D5B56599940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAFF13E5-AE34-40D9-9D93-3D5B56599940}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3844B719-5B37-4D95-AA82-32FCCA65E74E} = {BF6E3F44-5EFF-4CE4-8FC6-E72DBBF0CEF9}
+		{521FFA4D-DF58-4180-B7C0-CF8E1DE7A763} = {CCF7A544-C370-46A7-8D2C-E0738F4D28D4}
+		{D5782455-40C0-40AB-9EAA-3BBE3F267426} = {DCE60F00-574C-4C13-9F1A-EB138DD4FC02}
+		{CAFF13E5-AE34-40D9-9D93-3D5B56599940} = {1FEC0AEE-80C5-42AD-BC6F-9E078418CCAC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E9ADF45-F33B-41CD-858D-D12A20B4B062}
+	EndGlobalSection
+EndGlobal
