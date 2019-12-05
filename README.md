@@ -68,7 +68,7 @@ Por exemplo, "QueueServer.ps1 2", "QueueServer.ps1 10", ou "QueueServer.ps1 100"
 Não há ordem necessária para criar as mensagens ou criar os workers.
 Inclusive, enquanto já estão executando, você pode criar mais mensagens e mais workers.
 
-### Executando o examplo
+### Executando o exemplo
 
 Audio em português.
 https://youtu.be/biby53ko3iA
