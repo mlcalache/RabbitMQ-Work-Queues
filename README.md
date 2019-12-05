@@ -32,6 +32,11 @@ For example, "QueueServer.ps1 2", "QueueServer.ps1 10", or "QueueServer.ps1 100"
 There is no right order to create the messages or to create the workers.
 Additionally, while they are already running, you are able to create more messages and more workers if you want.
 
+### Running example
+
+Audio in portuguese.
+https://youtu.be/biby53ko3iA
+
 ## Português
 
 Exemplo com base no tutorial https://www.rabbitmq.com/tutorials/tutorial-two-dotnet.html
@@ -62,3 +67,8 @@ Por exemplo, "QueueServer.ps1 2", "QueueServer.ps1 10", ou "QueueServer.ps1 100"
 
 Não há ordem necessária para criar as mensagens ou criar os workers.
 Inclusive, enquanto já estão executando, você pode criar mais mensagens e mais workers.
+
+### Executando o examplo
+
+Audio em português.
+https://youtu.be/biby53ko3iA
