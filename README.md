@@ -3,8 +3,7 @@ RabbitMQ-Work-Queues
 
 ## English
 
-Example of solution using the tutorial
-https://www.rabbitmq.com/tutorials/tutorial-two-dotnet.html
+Example based on the tutorial https://www.rabbitmq.com/tutorials/tutorial-two-dotnet.html
 
 ### Database configuration
 
@@ -34,6 +33,8 @@ There is no right order to create the messages or to create the workers.
 Additionally, while they are already running, you are able to create more messages and more workers if you want.
 
 ## Português
+
+Exemplo com base no tutorial https://www.rabbitmq.com/tutorials/tutorial-two-dotnet.html
 
 ### Configuração do Banco de Dados
 
