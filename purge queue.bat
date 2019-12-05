@@ -1,0 +1,1 @@
+python.exe rabbitmqadmin purge queue name=task_queue
